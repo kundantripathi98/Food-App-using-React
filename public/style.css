@@ -13,15 +13,15 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1% 5%;
-    box-shadow: 0 0 10px 1px rgb(123, 122, 122);
+    padding: 0.1% 1%;
+    box-shadow: 0 0 10px 1px rgb(165, 165, 165);
 }
 
 .logo{
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    overflow: hidden;
+    width: 85px;
+    /* height: 90px; */
+    /* border-radius: 50%;
+    overflow: hidden; */
 }
 .logo img{
     width: 100%;

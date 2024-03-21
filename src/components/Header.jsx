@@ -1,15 +1,8 @@
 let Header = () => {
     return <header>
         <div className="logo">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlchPXr7yVl665xxKYXVrDgussYgT7lgW0uQ&usqp=CAU" alt="" />
+            <img src="https://zaika-foods.netlify.app/logo.2d766eac.png" alt="" />
         </div>
-
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Cart</a></li>
-            <li><a href="">Login</a></li>
-        </ul>
     </header>
 }
 
