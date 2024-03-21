@@ -1,16 +1,4 @@
 let Header = () => {
-
-// window.addEventListener('resize', ()=>{
-//     let viewportWidth = window.innerWidth || document.documentElement.clientWidth;
-//     let element = document.querySelector("ul"); 
-//    if (viewportWidth < 768 && element) {
-//        element.parentNode.removeChild(element);
-//    }
-// });
-
-
-    
-    console.log(document.documentElement.clientWidth);
     return <header>
         <div className="logo">
             <img src="https://zaika-foods.netlify.app/logo.2d766eac.png" alt="" />
