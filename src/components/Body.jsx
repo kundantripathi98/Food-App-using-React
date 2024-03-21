@@ -1,3 +1,5 @@
+import ResCard from "./Res-card";
+
 let Body = () => {
     return <section className="body">
         <div className="container">
@@ -14,6 +16,11 @@ let Body = () => {
                 <button>Range: &#x20B9;300 - &#x20B9;600</button>
             </div>
 
+        <div className="res-container">
+            <h1 id="place-name">Top restaurant chains in Bangalore</h1>
+
+            <ResCard />
+        </div>
         </div>
     </section>
 }
